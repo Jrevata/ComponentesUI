@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="callButton1"
+            android:padding="10dp"
+            android:text="This is Simple Android Button"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:drawableLeft="@android:drawable/sym_call_outgoing"
+            android:onClick="callButton2"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:text="Button With Icon in Left" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border_radius"
+            android:drawableLeft="@android:drawable/sym_call_outgoing"
+            android:onClick="callButton3"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:text="Button With Icon in Left" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_button"
+            android:drawableRight="@android:drawable/sym_call_outgoing"
+            android:onClick="callButton4"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:text="Button With Icon in Right" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradiente"
+            android:drawableRight="@android:drawable/sym_call_outgoing"
+            android:onClick="callButton4"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:text="Button With Icon in Right" />
+
+
+
+    </LinearLayout>
+</ScrollView>
